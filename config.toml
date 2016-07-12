@@ -1,4 +1,4 @@
-baseurl = "http://www.songlib.com/"
+baseurl = "http://hugo.songlib.com/"
 languageCode = "en-au"
 title = "Songlib"
 theme = "hugo-creative-theme"
@@ -41,7 +41,7 @@ theme = "hugo-creative-theme"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Organise your chord chart library"
-		subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
+		subtitle   = "Built by & for worship leaders...<br/>Songlib helps you save your time for the important things."
 		buttonText = "Find out more"
 
 
