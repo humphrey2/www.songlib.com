@@ -7,8 +7,13 @@
   </url>
   
   <url>
-    <loc>http://hugo.songlib.com/docs/chord-charts/format/</loc>
+    <loc>http://hugo.songlib.com/docs/chord-charts/songlib-format/</loc>
     <lastmod>2016-07-13T20:36:18+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.songlib.com/</loc>
+    <lastmod>2016-04-20T10:21:05+02:00</lastmod>
   </url>
   
 </urlset>

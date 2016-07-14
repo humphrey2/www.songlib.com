@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting-starteds on Songlib</title>
+    <link>http://hugo.songlib.com/getting-started/</link>
+    <description>Recent content in Getting-starteds on Songlib</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Wed, 20 Apr 2016 10:13:26 +0200</lastBuildDate>
+    <atom:link href="http://hugo.songlib.com/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>installation</title>
+      <link>http://hugo.songlib.com/getting-started/installation/</link>
+      <pubDate>Wed, 20 Apr 2016 10:13:26 +0200</pubDate>
+      
+      <guid>http://hugo.songlib.com/getting-started/installation/</guid>
+      <description>
+
+&lt;h1 id=&#34;installation-steps&#34;&gt;installation steps&lt;/h1&gt;
+
+&lt;p&gt;Here how to install the tool.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

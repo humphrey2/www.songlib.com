@@ -10,12 +10,195 @@
     <atom:link href="http://hugo.songlib.com/docs/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>chord chart format</title>
-      <link>http://hugo.songlib.com/docs/chord-charts/format/</link>
+      <title>The Songlib chord chart format</title>
+      <link>http://hugo.songlib.com/docs/chord-charts/songlib-format/</link>
       <pubDate>Wed, 13 Jul 2016 20:36:18 +1000</pubDate>
       
-      <guid>http://hugo.songlib.com/docs/chord-charts/format/</guid>
-      <description></description>
+      <guid>http://hugo.songlib.com/docs/chord-charts/songlib-format/</guid>
+      <description>
+
+&lt;p&gt;The Songlib chord chart format is designed to look like a normal plain text
+chord chart.  However, by adding a tiny bit of syntactic sugar, Songlib is able
+to automatically transpose chords &amp;amp; produce presenter lyric slides.&lt;/p&gt;
+
+&lt;h1 id=&#34;quick-start&#34;&gt;Quick start&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Chord lines start with a full stop&lt;/li&gt;
+&lt;li&gt;Lyric lines start with a space &lt;em&gt;(so they line up with the chords)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;[Block headings are wrapped in square brackets]&lt;/li&gt;
+&lt;li&gt;Blocks (verse, chorus, etc) are separated by blank lines&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;an-example-song&#34;&gt;An example song&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;[Verse 1]
+.C#m              B/D#    E
+ You call me out upon the waters
+.          B                     A
+ The great unknown where feet may fail
+.C#m                     B/D#   E
+ And there I find You in the   mystery
+.       B                    A
+ In oceans deep my faith will stand
+
+[Chorus]
+.A      E             B
+ I will call upon Your Name
+.A           E             B
+ And keep my eyes above the waves
+.            A                 E              B
+ When oceans rise My soul will rest in Your embrace
+.         A         B       C#m       B    E
+ For I am Yours and You are mine
+
+[Verse 2]
+ Your grace abounds in deepest waters
+ Your sovereign hand will be my guide
+ Where feet may fail and fear surrounds me
+ You&#39;ve never failed and You won&#39;t start now
+
+[Bridge]
+.C#m                     A
+ Spirit lead me where my trust is without borders
+.       E
+ Let me walk upon the waters
+.    B
+ Wherever You would call me
+.C#m                    A
+ Take me deeper than my feet could ever wander
+.       E
+ And my faith will be made stronger
+.       B
+ In the presence of my Saviour
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;syntax&#34;&gt;Syntax&lt;/h1&gt;
+
+&lt;p&gt;A song is comprised of one or more blocks.  Each block is separated with a blank line.&lt;/p&gt;
+
+&lt;h2 id=&#34;blocks-verse-chorus-etc&#34;&gt;Blocks (verse, chorus, etc)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Blocks are comprised of one or more lines.&lt;/li&gt;
+&lt;li&gt;Each line can be either a heading, chords, or lyrics.&lt;/li&gt;
+&lt;li&gt;Separate blocks with a single blank line, making sure that they blank line has no spaces on it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;An example Block (a verse):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[Verse 1]
+.C#m              B/D#    E
+ You call me out upon the waters
+.          B                     A
+ The great unknown where feet may fail
+.C#m                     B/D#   E
+ And there I find You in the   mystery
+.       B                    A
+ In oceans deep my faith will stand
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When using Songlib Presenter, slides will be automatically created based on these verses.&lt;/p&gt;
+
+&lt;h2 id=&#34;block-headings&#34;&gt;Block Headings&lt;/h2&gt;
+
+&lt;p&gt;Each block can optionally start with a heading line, which is any text, wrapped in square brackets.  Eg.&lt;/p&gt;
+
+&lt;pre&gt;&lt;span style=&#34;background: #afa;&#34;&gt;[&lt;/span&gt;Chorus&lt;span style=&#34;background: #afa;&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;There is currently no convention or requirement as to what heading text to use.&lt;/strong&gt; &lt;em&gt;However&lt;/em&gt;, future versions of Songlib
+might introduce some optional conventions to access in formatting, and shortcut keys.  Eg, [Chorus] could be emphasised
+or [Verse 2] accessed by pressing 2 on your keyboard.&lt;/p&gt;
+
+&lt;p&gt;Songlib Presenter uses these headings to create thumb nails for each slide, so it&amp;rsquo;s recommended that most of your verses/chorus/etc have a heading.&lt;/p&gt;
+
+&lt;p&gt;However, blocks that do not have headings will default to &lt;code&gt;...&lt;/code&gt;.  This can be useful if you want to split a block into two slides.  By not putting a heading on the second block, your thumbnails could look like: &lt;code&gt;Verse 1&lt;/code&gt; &lt;code&gt;...&lt;/code&gt; &lt;code&gt;Verse 2&lt;/code&gt; &lt;code&gt;...&lt;/code&gt; &lt;code&gt;Chorus&lt;/code&gt;.  Which could be what you want.&lt;/p&gt;
+
+&lt;h2 id=&#34;chord-lines&#34;&gt;Chord lines&lt;/h2&gt;
+
+&lt;p&gt;By marking a line as a chord line, Songlib is able to highlight the chords differently, and automatically transpose them for you!  Specify a line as a chord line by starting it with a full stop.  For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;span style=&#34;background: #afa;&#34;&gt;.&lt;/span&gt;C#m              B/D#    E&lt;/pre&gt;
+
+&lt;p&gt;Use spaces (not tabs) to space out chords so that they appear above the lyrics they related to.&lt;/p&gt;
+
+&lt;p&gt;Try to avoid putting anything that isn&amp;rsquo;t a chord in a chord line, as Songlib will replace anything it cannot with &lt;code&gt;?&lt;/code&gt; when the song is transposed.&lt;/p&gt;
+
+&lt;h2 id=&#34;lyric-lines&#34;&gt;Lyric lines&lt;/h2&gt;
+
+&lt;p&gt;Lyric lines start with a space.  For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;span style=&#34;background: #afa;&#34;&gt;&amp;nbsp;&lt;/span&gt;Take me deeper than my feet could ever wander&lt;/pre&gt;
+
+&lt;p&gt;Lyric lines are usually placed under a line of chords.  However this is not required, and verse 2 in the example song above does not put chords int he second verse. Layout your song however looks best.  Many people will put chords only in the first verse, and only specify the lyrics for the later verses.&lt;/p&gt;
+
+&lt;h1 id=&#34;pasting-from-web&#34;&gt;Pasting from web&lt;/h1&gt;
+
+&lt;p&gt;We all hate pointless typing, so don&amp;rsquo;t do it. If you have found a chord chart elsewhere on the internet, just copy and paste it into Songlib using the Paste from web option. Songlib will look for chords, and automatically format them for you.&lt;/p&gt;
+
+&lt;h1 id=&#34;conversion-to-lyric-slides&#34;&gt;Conversion to lyric slides&lt;/h1&gt;
+
+&lt;p&gt;Songlib automatically converts verses into presenter slides by stripping out the chord lines.  It&amp;rsquo;s important to lay out your verses so that they look good in both chord-chart and presenter models.  The above verse would get converted into the following slide:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; You call me out upon the waters
+ The great unknown where feet may fail
+ And there I find You in the mystery
+ In oceans deep my faith will stand
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Verse headings are used when creating thumbnails for each slide.&lt;/p&gt;
+
+&lt;p&gt;The example song above would be converted to a four slide slideshow.&lt;/p&gt;
+
+&lt;p&gt;When using the presenter, Songlib will automatically strip out chord lines, and convert each verse into a lyric slide.  Slides are only made for verses that have lyrics.  Multiple spaces are replaced by a single space.&lt;/p&gt;
+
+&lt;p&gt;Therefore, example above would have
+four slides.  The first slide would look like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;You call me out upon the waters
+The great unknown where feet may fail
+And there I find You in the mystery
+In oceans deep my faith will stand
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;How your verse is converted into a slide&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Chord lines are removed, leaving only the lyrics.&lt;/li&gt;
+&lt;li&gt;Multiple spaces are replaced by a single space.&lt;/li&gt;
+&lt;li&gt;Pipes &lt;code&gt;|&lt;/code&gt; are converted into line-breaks.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;tips-tricks&#34;&gt;Tips &amp;amp; tricks&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Use spaces instead of tabs&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you use tabs to space out your chords, your chords may not line up to the
+lyrics the same as they do in the editor.
+(This may be fixed in upcoming versions)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Use verse headings&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Although your chord chart might look great without headings, the presenter uses
+the heading text when showing slide thumbnails.  So, make you projector
+operators life easy, by adding in [verse headings].&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Try transposing each song&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When entering a chord chart, simple mistakes can be overlooked.  A great way to
+pick up on these mistakes, is to try transposing a song, and seeing if it looks
+right.  You&amp;rsquo;ll more easily notice obvious mistakes (such as marking chords are
+  lyrics) when you transpose.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Keep remarks out of chord lines&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Songlib&amp;rsquo;s chord transpose feature is great, but it can&amp;rsquo;t handle everything (yet).
+Currently, Songlib will get confused if you add anything to a chord line that is
+not a valid chord.  This means that any non-chord remarks written in a chord line
+will get replaced with &lt;code&gt;???&lt;/code&gt; characters.&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ll never use Word to edit songs again! And if that’s not easy enough already, Songlib can do it for you.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

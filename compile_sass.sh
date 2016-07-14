@@ -1,5 +1,2 @@
 
-# S3: http://humpty.xyz/
-# Run this from the root of the repository
-hugo
-s3cmd sync -r --delete-removed public/ s3://hugo.songlib.com/
+sassc --sourcemap themes/hugo-darkdoc-theme/resources/site.scss themes/hugo-darkdoc-theme/static/css/theme.css

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"  lang="en-au">
+    <title>The Songlib chord chart format - Songlib</title>
+    <meta name="generator" content="Hugo 0.16" />
+
+    
+    <meta name="description" content="a good description">
+    
+    <link rel="canonical" href="http://hugo.songlib.com/docs/chord-charts/songlib-format/">
+    
+    <meta name="author" content="My Name">
+    
+    <meta name="generator" content="Hugo 0.16" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:url" content="http://hugo.songlib.com/docs/chord-charts/songlib-format/">
+    <meta property="og:title" content="Songlib">
+    
+    <meta name="apple-mobile-web-app-title" content="Songlib">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    
+    <link rel="stylesheet" href="/css/theme.css" media="screen">
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/css/pygments.css">
+    
+    <link rel="stylesheet" href="/css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+  </head>
+  <body>
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+
+<div class="row">
+
+
+<div class="container">
+
+  <div>
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-4">
+        
+
+<div class="list-group table-of-contents">
+  
+  <div class="list-group">
+    
+    
+        <a class="list-group-item" href="http://hugo.songlib.com/docs/chord-charts/songlib-format/"><b>The Songlib chord chart format </b></a>
+    
+  </div>
+  
+
+</div>
+
+      </div>
+      <div class="col-lg-9 col-md-9 col-sm-8">
+        
+
+  <div class="page-header">
+    <div class="page-header">
+      <h1>The Songlib chord chart format</h1>
+    </div>
+    <div class="pull-right well" style="margin: 0 0 20px 20px;">
+      <h4>Table of contents</h4>
+      <nav id="TableOfContents">
+<ul>
+<li><a href="#quick-start">Quick start</a>
+<ul>
+<li><a href="#an-example-song">An example song</a></li>
+</ul></li>
+<li><a href="#syntax">Syntax</a>
+<ul>
+<li><a href="#blocks-verse-chorus-etc">Blocks (verse, chorus, etc)</a></li>
+<li><a href="#block-headings">Block Headings</a></li>
+<li><a href="#chord-lines">Chord lines</a></li>
+<li><a href="#lyric-lines">Lyric lines</a></li>
+</ul></li>
+<li><a href="#pasting-from-web">Pasting from web</a></li>
+<li><a href="#conversion-to-lyric-slides">Conversion to lyric slides</a></li>
+<li><a href="#tips-tricks">Tips &amp; tricks</a></li>
+</ul>
+</nav>
+    </div>
+    
+
+<p>The Songlib chord chart format is designed to look like a normal plain text
+chord chart.  However, by adding a tiny bit of syntactic sugar, Songlib is able
+to automatically transpose chords &amp; produce presenter lyric slides.</p>
+
+<h1 id="quick-start">Quick start</h1>
+
+<ul>
+<li>Chord lines start with a full stop</li>
+<li>Lyric lines start with a space <em>(so they line up with the chords)</em></li>
+<li>[Block headings are wrapped in square brackets]</li>
+<li>Blocks (verse, chorus, etc) are separated by blank lines</li>
+</ul>
+
+<h2 id="an-example-song">An example song</h2>
+
+<pre><code>[Verse 1]
+.C#m              B/D#    E
+ You call me out upon the waters
+.          B                     A
+ The great unknown where feet may fail
+.C#m                     B/D#   E
+ And there I find You in the   mystery
+.       B                    A
+ In oceans deep my faith will stand
+
+[Chorus]
+.A      E             B
+ I will call upon Your Name
+.A           E             B
+ And keep my eyes above the waves
+.            A                 E              B
+ When oceans rise My soul will rest in Your embrace
+.         A         B       C#m       B    E
+ For I am Yours and You are mine
+
+[Verse 2]
+ Your grace abounds in deepest waters
+ Your sovereign hand will be my guide
+ Where feet may fail and fear surrounds me
+ You've never failed and You won't start now
+
+[Bridge]
+.C#m                     A
+ Spirit lead me where my trust is without borders
+.       E
+ Let me walk upon the waters
+.    B
+ Wherever You would call me
+.C#m                    A
+ Take me deeper than my feet could ever wander
+.       E
+ And my faith will be made stronger
+.       B
+ In the presence of my Saviour
+</code></pre>
+
+<h1 id="syntax">Syntax</h1>
+
+<p>A song is comprised of one or more blocks.  Each block is separated with a blank line.</p>
+
+<h2 id="blocks-verse-chorus-etc">Blocks (verse, chorus, etc)</h2>
+
+<ul>
+<li>Blocks are comprised of one or more lines.</li>
+<li>Each line can be either a heading, chords, or lyrics.</li>
+<li>Separate blocks with a single blank line, making sure that they blank line has no spaces on it.</li>
+</ul>
+
+<p>An example Block (a verse):</p>
+
+<pre><code>[Verse 1]
+.C#m              B/D#    E
+ You call me out upon the waters
+.          B                     A
+ The great unknown where feet may fail
+.C#m                     B/D#   E
+ And there I find You in the   mystery
+.       B                    A
+ In oceans deep my faith will stand
+</code></pre>
+
+<p>When using Songlib Presenter, slides will be automatically created based on these verses.</p>
+
+<h2 id="block-headings">Block Headings</h2>
+
+<p>Each block can optionally start with a heading line, which is any text, wrapped in square brackets.  Eg.</p>
+
+<pre><span style="background: #afa;">[</span>Chorus<span style="background: #afa;">]</span></pre>
+
+<p><strong>There is currently no convention or requirement as to what heading text to use.</strong> <em>However</em>, future versions of Songlib
+might introduce some optional conventions to access in formatting, and shortcut keys.  Eg, [Chorus] could be emphasised
+or [Verse 2] accessed by pressing 2 on your keyboard.</p>
+
+<p>Songlib Presenter uses these headings to create thumb nails for each slide, so it&rsquo;s recommended that most of your verses/chorus/etc have a heading.</p>
+
+<p>However, blocks that do not have headings will default to <code>...</code>.  This can be useful if you want to split a block into two slides.  By not putting a heading on the second block, your thumbnails could look like: <code>Verse 1</code> <code>...</code> <code>Verse 2</code> <code>...</code> <code>Chorus</code>.  Which could be what you want.</p>
+
+<h2 id="chord-lines">Chord lines</h2>
+
+<p>By marking a line as a chord line, Songlib is able to highlight the chords differently, and automatically transpose them for you!  Specify a line as a chord line by starting it with a full stop.  For example:</p>
+
+<pre><span style="background: #afa;">.</span>C#m              B/D#    E</pre>
+
+<p>Use spaces (not tabs) to space out chords so that they appear above the lyrics they related to.</p>
+
+<p>Try to avoid putting anything that isn&rsquo;t a chord in a chord line, as Songlib will replace anything it cannot with <code>?</code> when the song is transposed.</p>
+
+<h2 id="lyric-lines">Lyric lines</h2>
+
+<p>Lyric lines start with a space.  For example:</p>
+
+<pre><span style="background: #afa;">&nbsp;</span>Take me deeper than my feet could ever wander</pre>
+
+<p>Lyric lines are usually placed under a line of chords.  However this is not required, and verse 2 in the example song above does not put chords int he second verse. Layout your song however looks best.  Many people will put chords only in the first verse, and only specify the lyrics for the later verses.</p>
+
+<h1 id="pasting-from-web">Pasting from web</h1>
+
+<p>We all hate pointless typing, so don&rsquo;t do it. If you have found a chord chart elsewhere on the internet, just copy and paste it into Songlib using the Paste from web option. Songlib will look for chords, and automatically format them for you.</p>
+
+<h1 id="conversion-to-lyric-slides">Conversion to lyric slides</h1>
+
+<p>Songlib automatically converts verses into presenter slides by stripping out the chord lines.  It&rsquo;s important to lay out your verses so that they look good in both chord-chart and presenter models.  The above verse would get converted into the following slide:</p>
+
+<pre><code> You call me out upon the waters
+ The great unknown where feet may fail
+ And there I find You in the mystery
+ In oceans deep my faith will stand
+</code></pre>
+
+<p>Verse headings are used when creating thumbnails for each slide.</p>
+
+<p>The example song above would be converted to a four slide slideshow.</p>
+
+<p>When using the presenter, Songlib will automatically strip out chord lines, and convert each verse into a lyric slide.  Slides are only made for verses that have lyrics.  Multiple spaces are replaced by a single space.</p>
+
+<p>Therefore, example above would have
+four slides.  The first slide would look like:</p>
+
+<pre><code>You call me out upon the waters
+The great unknown where feet may fail
+And there I find You in the mystery
+In oceans deep my faith will stand
+</code></pre>
+
+<p><strong>How your verse is converted into a slide</strong></p>
+
+<ol>
+<li>Chord lines are removed, leaving only the lyrics.</li>
+<li>Multiple spaces are replaced by a single space.</li>
+<li>Pipes <code>|</code> are converted into line-breaks.</li>
+</ol>
+
+<h1 id="tips-tricks">Tips &amp; tricks</h1>
+
+<p><strong>Use spaces instead of tabs</strong></p>
+
+<p>If you use tabs to space out your chords, your chords may not line up to the
+lyrics the same as they do in the editor.
+(This may be fixed in upcoming versions)</p>
+
+<p><strong>Use verse headings</strong></p>
+
+<p>Although your chord chart might look great without headings, the presenter uses
+the heading text when showing slide thumbnails.  So, make you projector
+operators life easy, by adding in [verse headings].</p>
+
+<p><strong>Try transposing each song</strong></p>
+
+<p>When entering a chord chart, simple mistakes can be overlooked.  A great way to
+pick up on these mistakes, is to try transposing a song, and seeing if it looks
+right.  You&rsquo;ll more easily notice obvious mistakes (such as marking chords are
+  lyrics) when you transpose.</p>
+
+<p><strong>Keep remarks out of chord lines</strong></p>
+
+<p>Songlib&rsquo;s chord transpose feature is great, but it can&rsquo;t handle everything (yet).
+Currently, Songlib will get confused if you add anything to a chord line that is
+not a valid chord.  This means that any non-chord remarks written in a chord line
+will get replaced with <code>???</code> characters.</p>
+
+<p>You&rsquo;ll never use Word to edit songs again! And if that’s not easy enough already, Songlib can do it for you.</p>
+
+  </div>
+
+      </div>
+    </div>
+  <div class="row">
+    <div class="col-lg-9 col-md-9 col-sm-8 col-lg-offset-3 col-md-offset-3">
+    <footer>
+  <div class="row">
+    <div class="col-lg-12">
+      <p>Copyright 2016. <a> My Name</a> </p>
+      <p>HUGO theme <a href="https://github.com/adejoux/hugo-darkdoc-theme" rel="nofollow">darkdoc</a>.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+    </div>
+  </div>
+
+</div>
+
+</html>
+<script>
+
+  var api_url = 'https://api.github.com/repos/myname/myproject';
+
+</script>
+<script src="//code.jquery.com/jquery-2.2.3.min.js"></script>
+<script src="/js/application.js"></script>
+<script type="text/javascript" src="/js/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script type="text/javascript" src="/js/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript" src="/js/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="/js/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+</script>
+

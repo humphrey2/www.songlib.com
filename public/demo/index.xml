@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demos on Songlib</title>
+    <link>http://hugo.songlib.com/demo/</link>
+    <description>Recent content in Demos on Songlib</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Wed, 20 Apr 2016 10:12:55 +0200</lastBuildDate>
+    <atom:link href="http://hugo.songlib.com/demo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>live</title>
+      <link>http://hugo.songlib.com/demo/live/</link>
+      <pubDate>Wed, 20 Apr 2016 10:12:55 +0200</pubDate>
+      
+      <guid>http://hugo.songlib.com/demo/live/</guid>
+      <description>
+
+&lt;h1 id=&#34;live-demo-available&#34;&gt;live demo available&lt;/h1&gt;
+
+&lt;p&gt;Here a live demo.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
