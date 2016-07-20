@@ -1,138 +1,23 @@
 baseurl = "http://hugo.songlib.com/"
 languageCode = "en-au"
-title = "Songlib"
-# theme = "hugo-creative-theme"
-
-theme = "hugo-darkdoc-theme"
 metadataformat = "yaml"
 pygmentsUseClasses = true
-
-[params]
-	# General information
-	author = "My Name"
-	description = "a good description"
-	copyright = "Released under my prefered license"
-
-  #demo website
-  demo_site = "http://demo.myproject.org"
-
-	# Repository
-	provider = "GitHub"
-	repo_url = "https://github.com/mynamemyproject"
-	repo_id = "myproject"
-
-	version = "1.0.0"
-	favicon = ""
-
-	permalink = "#"
-
-[social]
-	github  = "myname"
-
+theme = "hugo-darkdoc-theme"
+title = "Songlib"
 [[menu.main]]
-	name   = "Documentation"
-	url    = "docs/"
-	weight = 0
-
-# [[menu.main]]
-# 	name   = "Getting started"
-# 	url    = "getting-started/"
-#   weight = 10
-
-
-
-# [params]
-#
-# 	# You can use Markdown syntax for urls [text](//url.to/source) for
-# 	# most longer texts.
-#
-# 	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-# 	# for more icons. The icons are represented by their corresponding
-# 	# CSS class.
-#
-# 	# All projects of the portfolio are defined in their own files.
-# 	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
-# 	# folder into the 'data' directory at the root of this Hugo site.
-# 	# For more informtion take a look at the README.
-#
-# 	# To provide some metadata for search engines feel free to add a few
-#     # information about you and your website.
-# 	name = "Your name"
-# 	description = "Your description"
-#
-# 	# The path must be relative to the static folder
-# 	favicon = "favicon.ico"
-#
-#
-# 	# Navigation
-# 	[params.navigation]
-# 		brand = "Songlib"
-#
-# 		[params.navigation.links]
-# 			about     = "About"
-# 			services  = "Services"
-# 			portfolio = "Portfolio"
-# 			contact   = "Contact"
-#
-#
-# 	# Hero section
-# 	[params.hero]
-# 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-# 		slogan     = "Organise your chord chart library"
-# 		subtitle   = "Built by & for worship leaders...<br/>Songlib helps you save your time for the important things."
-# 		buttonText = "Find out more"
-#
-#
-# 	# About section
-# 	[params.about]
-# 		headline    = "We've got what you need!"
-# 		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-# 		buttonText  = "Get started!"
-#
-#
-# 	# Service section
-# 	[params.services]
-# 		headline = "At your service"
-#
-#         [[params.services.list]]
-#             icon = "fa-diamond"
-#             title = "Sturdy Templates"
-#             description = "Our templates are updated regularly so they don't break."
-#
-#         [[params.services.list]]
-# 			icon = "fa-paper-plane"
-# 			title = "Ready to Ship"
-# 			description = "You can use this theme as is, or you can make changes!"
-#
-# 		[[params.services.list]]
-#             icon = "fa-newspaper-o"
-#             title = "Up to Date"
-#             description = "We update dependencies to keep things fresh."
-#
-#         [[params.services.list]]
-#             icon = "fa-heart"
-#             title = "Made with Love"
-#             description = "You have to make your websites with love these days!"
-#
-#
-#     # Portfolio modals
-# 	[params.portfolio.modal]
-#         client = "Client"
-#         date = "Date"
-#         category = "Category"
-#         buttonText = "Close"
-#
-#     # Aside section
-# 	[params.aside]
-# 		headline = "Get the Creative Theme for Hugo"
-#
-# 		[params.aside.button]
-# 			text = "Download now"
-# 			link = "//github.com/digitalcraftsman/hugo-creative-theme"
-#
-# 	# Contact section
-# 	[params.contact]
-# 		headline = "Let's Get In Touch!"
-# 		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
-# 		phone = "123-456-6789"
-# 		email = "feedback@startbootstrap.com"
+name = "Documentation"
+url = "docs/"
+weight = 0
+[params]
+author = "Humphrey Murray"
+copyright = "Released under my prefered license"
+demo_site = "http://songlib.com/"
+description = "a good description"
+favicon = ""
+permalink = "#"
+provider = "GitHub"
+repo_id = "myproject"
+repo_url = "https://github.com/mynamemyproject"
+version = "1.0.0"
+[social]
+github = "myname"
