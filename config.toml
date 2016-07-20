@@ -9,9 +9,9 @@ name = "Documentation"
 url = "docs/"
 weight = 0
 [params]
-author = "My Name"
+author = "Humphrey Murray"
 copyright = "Released under my prefered license"
-demo_site = "http://demo.myproject.org"
+demo_site = "http://songlib.com/"
 description = "a good description"
 favicon = ""
 permalink = "#"
