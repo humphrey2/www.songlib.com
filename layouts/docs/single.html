@@ -18,9 +18,13 @@
       <div class="page-header">
         <h1>{{.Title}}</h1>
       </div>
-      <div class="pull-right well" style="margin: 0 0 20px 20px;">
-        <h4>Table of contents</h4>
-        {{ .TableOfContents }}
+      <p>{{ .Params.introduction }}</p>
+      <br/>
+      <div class="clearfix">
+        <div class="well well-sm pull-left">
+          <h5 class="text-center">Contents</h4>
+          {{ .TableOfContents }}
+        </div>
       </div>
       {{ .Content }}
     </div>

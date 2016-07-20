@@ -1,16 +1,13 @@
 ---
 title: The Songlib chord chart format
 date: '2016-07-13T20:36:00+00:00'
+introduction: The Songlib chord chart format is designed to look like a normal plain text chord chart. However, by adding a tiny bit of syntactic sugar, Songlib is able to automatically transpose chords & produce presenter lyric slides.
 menu:
   main:
     name: Chord Charts
     weight: 1
 draft: false
-
 ---
-The Songlib chord chart format is designed to look like a normal plain text
-chord chart.  However, by adding a tiny bit of syntactic sugar, Songlib is able
-to automatically transpose chords & produce presenter lyric slides.
 
 # Quick start
 
