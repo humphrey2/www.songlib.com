@@ -1,13 +1,39 @@
-{{ define "main" }}
+{{ partial "header" . }}
 
-  <div class="page-header">
+<div class="row">
+<!-- <div class="navbar navbar-default navbar-fixed-top">
+{{ partial "navbar" . }}
+</div> -->
+
+<div class="container">
+
+  <div>
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-4">
+        {{ partial "menu" . }}
+      </div>
+      <div class="col-lg-9 col-md-9 col-sm-8">
+
     <div class="page-header">
-      <h1>{{.Title}}</h1>
+      <div class="page-header">
+        <h1>{{.Title}}</h1>
+      </div>
+      <div class="pull-right well" style="margin: 0 0 20px 20px;">
+        <h4>Table of contents</h4>
+        {{ .TableOfContents }}
+      </div>
+      {{ .Content }}
     </div>
-    <div class="pull-right well" style="margin: 0 0 20px 20px;">
-      <h4>Table of contents</h4>
-      {{ .TableOfContents }}
-    </div>
-    {{ .Content }}
-  </div>
-{{ end }}
+
+</div>
+</div>
+<div class="row">
+<div class="col-lg-9 col-md-9 col-sm-8 col-lg-offset-3 col-md-offset-3">
+{{ partial "footer" . }}
+</div>
+</div>
+
+</div>
+
+</html>
+{{ partial "footer_js" . }}
