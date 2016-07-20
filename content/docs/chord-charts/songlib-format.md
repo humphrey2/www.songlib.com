@@ -1,6 +1,10 @@
 ---
 title: The Songlib chord chart format
 date: '2016-07-13T20:36:00+00:00'
+menu:
+  main:
+    name: Chord Charts
+    weight: 1
 draft: false
 
 ---
