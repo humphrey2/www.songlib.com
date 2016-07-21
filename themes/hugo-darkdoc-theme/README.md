@@ -1,4 +1,4 @@
-# DarkDoc Theme
+# Songlib Theme
 
 DarkDoc Theme is a [bootstrap](http://getbootstrap.com/) to document a project. It will create links to github downloads and demo web site if any and display project stars.
 

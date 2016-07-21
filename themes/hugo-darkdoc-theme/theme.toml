@@ -1,15 +1,15 @@
-name = "Darkdoc"
+name = "Songlib"
 license = "MIT"
-licenselink = "https://github.com/adejoux/hugo-darkdoc-theme/blob/master/LICENSE.md"
-description = "bootstrap theme for documentation"
-homepage = "https://github.com/adejoux/hugo-darkdoc-theme"
+# licenselink = "https://github.com/adejoux/hugo-darkdoc-theme/blob/master/LICENSE.md"
+# description = "bootstrap theme for documentation"
+# homepage = "https://github.com/adejoux/hugo-darkdoc-theme"
 tags = ["bootstrap", "documentation", "responsive"]
-features = ["", ""]
-min_version = 0.14
+# features = ["", ""]
+min_version = 0.15
 
 [author]
-  name = "Alain Dejoux"
-  homepage = "http://djouxtech.net"
+  name = "Humphrey Murray"
+  homepage = "https://humphrey.github.io"
 
 # If porting an existing theme
 [original]
