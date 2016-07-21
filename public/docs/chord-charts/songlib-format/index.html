@@ -36,6 +36,7 @@
   <body>
 
 
+
 <div class="navbar navbar-default navbar-fixed-top">
 <div class="container">
   <div class="navbar-header">
@@ -54,15 +55,6 @@
       
           
             <li>
-              <a class="" href="docs/">
-                
-                <span>Documentation</span>
-              </a>
-          
-        </li>
-      
-          
-            <li>
               <a class="" href="/">
                 
                 <span>Home</span>
@@ -73,38 +65,34 @@
           
 
             <li class="dropdown active">
-              <a href="docs/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              <a href="/docs/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   
                   <span>Documentation</span>
                   <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                   
-                    <li>
-                      <a href="docs/chord-charts/"> Chord-charts </a>
+                    <li style="margin-top: 5px;">
+                      <a href="/docs/libraries/"> Libraries </a>
+                    </li>
+
+                    
+
+                  
+                    <li style="margin-top: 5px;">
+                      <a href="/docs/chord-charts/"> Chord charts </a>
                     </li>
 
                     
                       <li class="small active">
-                        <a href="/docs/chord-charts/songlib-format/" style="padding-left: 20px;"> - Chord-chart formatting </a>
-                      </li>
-                    
-                      <li class="small">
-                        <a href="/docs/chord-charts/" style="padding-left: 20px;"> - Chord-charts </a>
+                        <a href="/docs/chord-charts/songlib-format/" style="padding-left: 20px;"> - The Songlib Format </a>
                       </li>
                     
                       <li class="small">
                         <a href="/docs/chord-charts/importing/" style="padding-left: 20px;"> - Importing songs </a>
                       </li>
                     
-                    <li class="divider"></li>
-                  
-                    <li>
-                      <a href="/docs/libraries/"> Libraries </a>
-                    </li>
 
-                    
-                    <li class="divider"></li>
                   
               </ul>
           
@@ -117,15 +105,17 @@
 
 </div>
 
+<div style="height: 70px;"></div>
+
+
 <div class="container">
-  <div class="div">
-    <div class="page-header">
-      <h1 class="title">Chord-chart formatting</h1>
-      <p class="lead">A simple &amp; powerful chord-chart format for everybody</p>
-    </div>
-  </div>
     <div class="row">
-      <div class="col-md-9 col-sm-8">
+      <div class="col-md-9 col-sm-8 col-md-push-3">
+
+          <div class="page-header">
+            <h1 class="title">Chord-chart formatting</h1>
+            <p class="lead">A simple &amp; powerful chord-chart format for everybody</p>
+          </div>
 
           <p>The Songlib chord chart format is designed to look like a normal plain text chord chart. However, by adding a tiny bit of syntactic sugar, Songlib is able to automatically transpose chords &amp; produce presenter lyric slides.</p>
           
@@ -336,29 +326,47 @@ will get replaced with <code>???</code> characters.</p>
 
 
       </div>
-      <div class="col-md-3 col-sm-4">
-        
+      <div class="col-md-3 col-sm-4 col-md-pull-9">
+        <div style="height: 58px;"></div>
 
-<div class="list-group table-of-contents">
-  
-  <div class="list-group">
-    
-    
-        <a class="list-group-item" href="http://hugo.songlib.com/docs/libraries/"><b>Libraries </b></a>
-    
-    
-        <a class="list-group-item" href="http://hugo.songlib.com/docs/chord-charts/songlib-format/"><b>Chord-chart formatting </b></a>
-    
-    
-        <a class="list-group-item" href="http://hugo.songlib.com/docs/chord-charts/"><b>Chord-charts </b></a>
-    
-    
-        <a class="list-group-item" href="http://hugo.songlib.com/docs/chord-charts/importing/"><b>Importing songs </b></a>
-    
-  </div>
-  
+        <div class="panel panel-default">
+          
+          <a class="panel-heading" href="/docs/" style="display: block;">Documentation</a>
+          <div class="list-group small">
 
-</div>
+                
+                
+                  
+                
+                  
+
+                    
+                      <a class="list-group-item" href="/docs/libraries/">
+                        Libraries
+                      </a>
+
+                      
+
+                    
+                      <a class="list-group-item" href="/docs/chord-charts/">
+                        Chord charts
+                      </a>
+
+                      
+                        <a class="list-group-item active" href="/docs/chord-charts/songlib-format/" style="padding-left: 20px;">
+                          - The Songlib Format
+                        </a>
+                      
+                        <a class="list-group-item" href="/docs/chord-charts/importing/" style="padding-left: 20px;">
+                          - Importing songs
+                        </a>
+                      
+
+                    
+                    
+                
+              </div>
+        </div>
 
       </div>
     </div>

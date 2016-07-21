@@ -36,6 +36,7 @@
   <body>
 
 
+
 <div class="navbar navbar-default navbar-fixed-top">
 <div class="container">
   <div class="navbar-header">
@@ -54,15 +55,6 @@
       
           
             <li>
-              <a class="" href="docs/">
-                
-                <span>Documentation</span>
-              </a>
-          
-        </li>
-      
-          
-            <li>
               <a class="" href="/">
                 
                 <span>Home</span>
@@ -73,38 +65,34 @@
           
 
             <li class="dropdown active">
-              <a href="docs/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              <a href="/docs/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   
                   <span>Documentation</span>
                   <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                   
-                    <li>
-                      <a href="docs/chord-charts/"> Chord-charts </a>
+                    <li class="active" style="margin-top: 5px;">
+                      <a href="/docs/libraries/"> Libraries </a>
+                    </li>
+
+                    
+
+                  
+                    <li style="margin-top: 5px;">
+                      <a href="/docs/chord-charts/"> Chord charts </a>
                     </li>
 
                     
                       <li class="small">
-                        <a href="/docs/chord-charts/songlib-format/" style="padding-left: 20px;"> - Chord-chart formatting </a>
-                      </li>
-                    
-                      <li class="small">
-                        <a href="/docs/chord-charts/" style="padding-left: 20px;"> - Chord-charts </a>
+                        <a href="/docs/chord-charts/songlib-format/" style="padding-left: 20px;"> - The Songlib Format </a>
                       </li>
                     
                       <li class="small">
                         <a href="/docs/chord-charts/importing/" style="padding-left: 20px;"> - Importing songs </a>
                       </li>
                     
-                    <li class="divider"></li>
-                  
-                    <li class="active">
-                      <a href="/docs/libraries/"> Libraries </a>
-                    </li>
 
-                    
-                    <li class="divider"></li>
                   
               </ul>
           
@@ -117,15 +105,17 @@
 
 </div>
 
+<div style="height: 70px;"></div>
+
+
 <div class="container">
-  <div class="div">
-    <div class="page-header">
-      <h1 class="title">Libraries</h1>
-      
-    </div>
-  </div>
     <div class="row">
-      <div class="col-md-9 col-sm-8">
+      <div class="col-md-9 col-sm-8 col-md-push-3">
+
+          <div class="page-header">
+            <h1 class="title">Libraries</h1>
+            
+          </div>
 
           <p>A library is a collection of songs and set-lists.  A library can be either private or shared with other users.</p>
           
@@ -194,29 +184,47 @@
 
 
       </div>
-      <div class="col-md-3 col-sm-4">
-        
+      <div class="col-md-3 col-sm-4 col-md-pull-9">
+        <div style="height: 58px;"></div>
 
-<div class="list-group table-of-contents">
-  
-  <div class="list-group">
-    
-    
-        <a class="list-group-item" href="http://hugo.songlib.com/docs/libraries/"><b>Libraries </b></a>
-    
-    
-        <a class="list-group-item" href="http://hugo.songlib.com/docs/chord-charts/songlib-format/"><b>Chord-chart formatting </b></a>
-    
-    
-        <a class="list-group-item" href="http://hugo.songlib.com/docs/chord-charts/"><b>Chord-charts </b></a>
-    
-    
-        <a class="list-group-item" href="http://hugo.songlib.com/docs/chord-charts/importing/"><b>Importing songs </b></a>
-    
-  </div>
-  
+        <div class="panel panel-default">
+          
+          <a class="panel-heading" href="/docs/" style="display: block;">Documentation</a>
+          <div class="list-group small">
 
-</div>
+                
+                
+                  
+                
+                  
+
+                    
+                      <a class="list-group-item active" href="/docs/libraries/">
+                        Libraries
+                      </a>
+
+                      
+
+                    
+                      <a class="list-group-item" href="/docs/chord-charts/">
+                        Chord charts
+                      </a>
+
+                      
+                        <a class="list-group-item" href="/docs/chord-charts/songlib-format/" style="padding-left: 20px;">
+                          - The Songlib Format
+                        </a>
+                      
+                        <a class="list-group-item" href="/docs/chord-charts/importing/" style="padding-left: 20px;">
+                          - Importing songs
+                        </a>
+                      
+
+                    
+                    
+                
+              </div>
+        </div>
 
       </div>
     </div>
