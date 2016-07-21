@@ -1,1 +1,7 @@
-$font-size-base: 16px;
+$font-size-base: 17px;
+$font-size-h1: floor(($font-size-base * 2));
+$font-size-h2: floor(($font-size-base * 1.25));
+$headings-font-weight: 200;
+$songlib-red: #C0343C;
+$headings-color: $songlib-red;
+$navbar-default-bg: #cde;

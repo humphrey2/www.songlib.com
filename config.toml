@@ -4,10 +4,21 @@ metadataformat = "yaml"
 pygmentsUseClasses = true
 theme = "hugo-darkdoc-theme"
 title = "Songlib"
-[[menu.main]]
-name = "Documentation"
-url = "docs/"
-weight = 0
+# [[menu.main]]
+# name = "Home"
+# url = "/"
+# weight = 5
+# [[menu.main]]
+# name = "Documentation"
+# url = "docs/"
+# weight = 10
+# identifier = "docs"
+# [[menu.main]]
+# name = "Chord-charts"
+# url = "docs/chord-charts/"
+# weight = 10
+# identifier = "chord-charts"
+# parent = "docs"
 [params]
 author = "Humphrey Murray"
 copyright = "Released under my prefered license"

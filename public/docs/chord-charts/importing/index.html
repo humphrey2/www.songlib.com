@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"  lang="en-au">
-    <title>importing - Songlib</title>
+    <title>Importing songs - Songlib</title>
     <meta name="generator" content="Hugo 0.16" />
 
     
@@ -10,7 +10,7 @@
     
     <link rel="canonical" href="http://hugo.songlib.com/docs/chord-charts/importing/">
     
-    <meta name="author" content="My Name">
+    <meta name="author" content="Humphrey Murray">
     
     <meta name="generator" content="Hugo 0.16" />
 
@@ -27,21 +27,15 @@
 
     
     <link rel="stylesheet" href="/css/theme.css" media="screen">
-    <link rel="stylesheet" href="/css/custom.css">
-    <link rel="stylesheet" href="/css/pygments.css">
     
-    <link rel="stylesheet" href="/css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-    <link rel="stylesheet" href="/css/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    
+    
+    
+    
   </head>
   <body>
 
-    <br/>
-    <br/>
-    <br/>
-    <br/>
 
-
-<div class="row">
 <div class="navbar navbar-default navbar-fixed-top">
 <div class="container">
   <div class="navbar-header">
@@ -55,21 +49,68 @@
   <div class="navbar-collapse collapse" id="navbar-main">
 
     <ul class="nav navbar-nav navbar-right">
-      <li>
-      <a href="https://github.com/mynamemyproject/releases/latest">Download</a>
-      </li>
+
       
-      <li>
-        <a href="http://demo.myproject.org">Demo</a>
-      </li>
       
-      <li>
-        <a href="https://github.com/mynamemyproject/stargazers" target="_blank" title="Stargazers" data-action="star">
-          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>Stars
-          <span id="star_count">&ndash;</span>
-        </a>
-      </li>
-      <li><a href="https://github.com/myname/Songlib">Github</a></li>
+          
+            <li>
+              <a class="" href="docs/">
+                
+                <span>Documentation</span>
+              </a>
+          
+        </li>
+      
+          
+            <li>
+              <a class="" href="/">
+                
+                <span>Home</span>
+              </a>
+          
+        </li>
+      
+          
+
+            <li class="dropdown active">
+              <a href="docs/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  
+                  <span>Documentation</span>
+                  <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                  
+                    <li>
+                      <a href="docs/chord-charts/"> Chord-charts </a>
+                    </li>
+
+                    
+                      <li class="small">
+                        <a href="/docs/chord-charts/songlib-format/" style="padding-left: 20px;"> - Chord-chart formatting </a>
+                      </li>
+                    
+                      <li class="small">
+                        <a href="/docs/chord-charts/" style="padding-left: 20px;"> - Chord-charts </a>
+                      </li>
+                    
+                      <li class="small active">
+                        <a href="/docs/chord-charts/importing/" style="padding-left: 20px;"> - Importing songs </a>
+                      </li>
+                    
+                    <li class="divider"></li>
+                  
+                    <li>
+                      <a href="/docs/libraries/"> Libraries </a>
+                    </li>
+
+                    
+                    <li class="divider"></li>
+                  
+              </ul>
+          
+        </li>
+      
+
     </ul>
   </div>
 </div>
@@ -77,10 +118,21 @@
 </div>
 
 <div class="container">
-
-  <div>
+  <div class="div">
+    <div class="page-header">
+      <h1 class="title">Importing songs</h1>
+      <p class="lead">Import your existing OnSong or ChordPro song library</p>
+    </div>
+  </div>
     <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-4">
+      <div class="col-md-9 col-sm-8">
+
+          <p>If you&#39;ve already got songs, this section is for you!</p>
+          
+          
+
+      </div>
+      <div class="col-md-3 col-sm-4">
         
 
 <div class="list-group table-of-contents">
@@ -88,28 +140,16 @@
   <div class="list-group">
     
     
-        <a class="list-group-item" href="http://hugo.songlib.com/docs/offline-access/"><b>offline access </b></a>
+        <a class="list-group-item" href="http://hugo.songlib.com/docs/libraries/"><b>Libraries </b></a>
     
     
-        <a class="list-group-item" href="http://hugo.songlib.com/docs/presenter/"><b>presenter </b></a>
+        <a class="list-group-item" href="http://hugo.songlib.com/docs/chord-charts/songlib-format/"><b>Chord-chart formatting </b></a>
     
     
-        <a class="list-group-item" href="http://hugo.songlib.com/docs/getting-started/"><b>getting started </b></a>
+        <a class="list-group-item" href="http://hugo.songlib.com/docs/chord-charts/"><b>Chord-charts </b></a>
     
     
-        <a class="list-group-item" href="http://hugo.songlib.com/docs/settings/"><b>settings </b></a>
-    
-    
-        <a class="list-group-item" href="http://hugo.songlib.com/docs/libraries/"><b>libraries </b></a>
-    
-    
-        <a class="list-group-item" href="http://hugo.songlib.com/docs/setlists/"><b>setlists </b></a>
-    
-    
-        <a class="list-group-item" href="http://hugo.songlib.com/docs/chord-charts/songlib-format/"><b>The Songlib chord chart format </b></a>
-    
-    
-        <a class="list-group-item" href="http://hugo.songlib.com/docs/chord-charts/importing/"><b>importing </b></a>
+        <a class="list-group-item" href="http://hugo.songlib.com/docs/chord-charts/importing/"><b>Importing songs </b></a>
     
   </div>
   
@@ -117,28 +157,14 @@
 </div>
 
       </div>
-      <div class="col-lg-9 col-md-9 col-sm-8">
-        
+    </div>
 
-  <div class="page-header">
-    <div class="page-header">
-      <h1>importing</h1>
-    </div>
-    <div class="pull-right well" style="margin: 0 0 20px 20px;">
-      <h4>Table of contents</h4>
-      
-    </div>
-    
-  </div>
-
-      </div>
-    </div>
-  <div class="row">
-    <div class="col-lg-9 col-md-9 col-sm-8 col-lg-offset-3 col-md-offset-3">
-    <footer>
+    <div class="row">
+      <div class="col-lg-9 col-md-9 col-sm-8 col-lg-offset-3 col-md-offset-3">
+      <footer>
   <div class="row">
     <div class="col-lg-12">
-      <p>Copyright 2016. <a> My Name</a> </p>
+      <p>Copyright 2016. <a> Humphrey Murray</a> </p>
       <p>HUGO theme <a href="https://github.com/adejoux/hugo-darkdoc-theme" rel="nofollow">darkdoc</a>.</p>
     </div>
   </div>
@@ -146,26 +172,20 @@
 
 </body>
 
+      </div>
     </div>
-  </div>
 
 </div>
 
-</html>
 <script>
 
   var api_url = 'https://api.github.com/repos/myname/myproject';
 
 </script>
 <script src="//code.jquery.com/jquery-2.2.3.min.js"></script>
-<script src="/js/application.js"></script>
-<script type="text/javascript" src="/js/jquery.fancybox.pack.js?v=2.1.5"></script>
-<script type="text/javascript" src="/js/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-<script type="text/javascript" src="/js/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-<script type="text/javascript" src="/js/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-<script type="text/javascript">
-  $(document).ready(function() {
-    $(".fancybox").fancybox();
-  });
-</script>
+<script src="//code.jquery.com/jquery-2.2.3.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 
+
+
+</html>

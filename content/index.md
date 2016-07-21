@@ -4,9 +4,9 @@ date: '2016-04-20T10:21:05+02:00'
 type: index
 menu:
   main:
-    name: Documentation
-    url: docs/
-    weight: 0
+    name: Home
+    weight: 10
+    identifier: index
 draft: false
 
 ---

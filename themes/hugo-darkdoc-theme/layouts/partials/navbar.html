@@ -1,3 +1,5 @@
+
+<div class="navbar navbar-default navbar-fixed-top">
 <div class="container">
   <div class="navbar-header">
     <a href="{{ .Site.BaseURL }}" class="navbar-brand">{{ .Site.Title }}</a>
@@ -10,21 +12,45 @@
   <div class="navbar-collapse collapse" id="navbar-main">
 
     <ul class="nav navbar-nav navbar-right">
-      <li>
-      <a href="{{ .Site.Params.repo_url }}/releases/latest">Download</a>
-      </li>
-      {{ with .Site.Params.demo_site }}
-      <li>
-        <a href="{{ . }}">Demo</a>
-      </li>
-      {{ end }}
-      <li>
-        <a href="{{ .Site.Params.repo_url }}/stargazers" target="_blank" title="Stargazers" data-action="star">
-          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>Stars
-          <span id="star_count">&ndash;</span>
-        </a>
-      </li>
-      <li><a href="https://github.com/{{ .Site.Social.github }}/{{.Site.Title}}">Github</a></li>
+
+      {{ $currentNode := . }}
+      {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
+
+            <li class="dropdown{{if $currentNode.HasMenuCurrent "main" . }} active{{end}}">
+              <a href="{{.URL}}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  {{ .Pre }}
+                  <span>{{ .Name }}</span>
+                  <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                  {{ range .Children }}
+                    <li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}} style="margin-top: 5px;">
+                      <a href="{{.URL}}"> {{ .Name }} </a>
+                    </li>
+
+                    {{ range .Children }}
+                      <li class="small{{if $currentNode.IsMenuCurrent "main" . }} active{{end}}">
+                        <a href="{{.URL}}" style="padding-left: 20px;"> - {{ .Name }} </a>
+                      </li>
+                    {{ end }}
+
+                  {{ end }}
+              </ul>
+          {{else}}
+            <li>
+              <a class="" href="{{.URL}}">
+                {{ .Pre }}
+                <span>{{ .Name }}</span>
+              </a>
+          {{end}}
+        </li>
+      {{end}}
+
     </ul>
   </div>
 </div>
+
+</div>
+
+<div style="height: 70px;"></div>

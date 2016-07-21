@@ -1,5 +1,5 @@
 
-@import "variables";
+@import "_variables.scss";
 
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
@@ -57,3 +57,8 @@
 // Utility classes
 @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/utilities";
 @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/responsive-utilities";
+
+
+h2 { font-weight: 400; }
+
+h1.title { font-size: floor($font-size-h1 * 1.5); }
