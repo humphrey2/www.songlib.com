@@ -5,10 +5,8 @@
     <div class="row">
       <div class="col-md-9 col-sm-8 col-md-push-3">
 
-          <div class="page-header">
-            <h1 class="title">{{.Title}}</h1>
-            {{ if isset .Params "subtitle" }}<p class="lead">{{ .Params.subtitle }}</p>{{ end }}
-          </div>
+          <h1 class="page-header title">{{.Title}}</h1>
+          {{ if isset .Params "subtitle" }}<p class="lead">{{ .Params.subtitle }}</p>{{ end }}
 
           <p>{{ .Params.introduction }}</p>
 

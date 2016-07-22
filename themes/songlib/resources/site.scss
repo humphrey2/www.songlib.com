@@ -14,50 +14,53 @@
 // Reset and dependencies
 @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/normalize";
 @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/print";
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/glyphicons";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/glyphicons";
 
 // Core CSS
 @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/scaffolding";
 @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/type";
 @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/code";
 @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/grid";
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/tables";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/tables";
 @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/forms";
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/buttons";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/buttons";
 
 // Components
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/component-animations";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/component-animations";
 @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/dropdowns";
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/button-groups";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/button-groups";
 @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/input-groups";
 @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/navs";
 @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/navbar";
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/breadcrumbs";
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/pagination";
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/pager";
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/labels";
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/badges";
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/jumbotron";
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/thumbnails";
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/alerts";
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/progress-bars";
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/media";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/breadcrumbs";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/pagination";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/pager";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/labels";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/badges";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/jumbotron";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/thumbnails";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/alerts";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/progress-bars";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/media";
 @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/list-group";
 @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/panels";
 @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/responsive-embed";
 @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/wells";
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/close";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/close";
 
 // Components w/ JavaScript
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/modals";
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/tooltip";
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/popovers";
-@import "bootstrap-sass-3.3.6/stylesheets/bootstrap/carousel";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/modals";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/tooltip";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/popovers";
+// @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/carousel";
 
 // Utility classes
 @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/utilities";
 @import "bootstrap-sass-3.3.6/stylesheets/bootstrap/responsive-utilities";
 
+/*  Font Awesome */
+$fa-font-path: "../fonts/font-awesome";
+@import "font-awesome-4.6.3/scss/font-awesome.scss";
 
 h2 { font-weight: 400; }
 
