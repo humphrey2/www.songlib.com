@@ -8,5 +8,6 @@ menu:
     parent: chord-charts
     weight: 80
 draft: false
-
+hero: img/hero/stock-photo-68836349-modern-life.jpg
+heroPositionY: 50%
 ---

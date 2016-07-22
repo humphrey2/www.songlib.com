@@ -7,4 +7,5 @@ menu:
   main:
     parent: 'docs'
     weight: 70
+hero: img/hero/stock-photo-1117637-to-do-list.jpg
 ---

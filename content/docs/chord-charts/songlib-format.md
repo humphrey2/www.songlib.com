@@ -9,6 +9,8 @@ menu:
     weight: 20
     name: The Songlib Format
 draft: false
+hero: "img/hero/stock-photo-75675711-cup-of-coffee-for-the-music-composer-vintage-effect-.jpg"
+heroPositionY: 40%
 ---
 
 # Quick start

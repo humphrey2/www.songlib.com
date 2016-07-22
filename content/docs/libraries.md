@@ -7,6 +7,8 @@ menu:
   main:
     parent: 'docs'
     weight: 20
+hero: img/hero/stock-photo-11060511-antique-hymnals.jpg
+heroPositionY: 40%
 ---
 
 # Your private library

@@ -9,4 +9,6 @@ menu:
     weight: 30
     identifier: chord-charts
 draft: false
+hero: img/hero/stock-photo-62596202-close-up-of-mans-fingers-playing-electric-guitar.jpg
+heroPositionY: 65%
 ---
