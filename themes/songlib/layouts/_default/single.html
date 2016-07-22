@@ -1,19 +1,18 @@
 {{ partial "header" . }}
-
 {{ partial "navbar" . }}
 
 <div class="container">
-  <div class="div">
-    <div class="page-header">
-      <h1 class="title">{{.Title}}</h1>
-      {{ if isset .Params "subtitle" }}<p class="lead">{{ .Params.subtitle }}</p>{{ end }}
-    </div>
-  </div>
     <div class="row">
-      <div class="col-md-9 col-sm-8">
+      <div class="col-md-9 col-sm-8 col-md-push-3">
 
-        <div class="page-header">
+          <div class="page-header">
+            <h1 class="title">{{.Title}}</h1>
+            {{ if isset .Params "subtitle" }}<p class="lead">{{ .Params.subtitle }}</p>{{ end }}
+          </div>
+
           <p>{{ .Params.introduction }}</p>
+
+          {{ if .TableOfContents }}
           <br/>
           <div class="clearfix">
             <div class="well well-sm pull-left">
@@ -21,22 +20,41 @@
               {{ .TableOfContents }}
             </div>
           </div>
+          {{ end }}
           {{ .Content }}
+
+      </div>
+      <div class="col-md-3 col-sm-4 col-md-pull-9">
+        <div style="height: 58px;"></div>
+
+        <div class="panel panel-default">
+
+          {{ $currentNode := . }}
+          {{ range .Site.Menus.main }}
+
+            <a class="panel-heading{{if $currentNode.IsMenuCurrent "main" . }} active{{end}}" href="{{.URL}}" style="display: block;">
+              {{ .Name }}
+            </a>
+            <div class="list-group small">
+              {{ range .Children }}
+                <a class="list-group-item{{if $currentNode.IsMenuCurrent "main" . }} active{{end}}" href="{{.URL}}">
+                  {{ .Name }}
+                </a>
+                {{ range .Children }}
+                  <a class="list-group-item{{if $currentNode.IsMenuCurrent "main" . }} active{{end}}" href="{{.URL}}" style="padding-left: 20px;">
+                    - {{ .Name }}
+                  </a>
+                {{ end }}
+              {{ end }}
+            </div>
+          {{end}}
         </div>
 
       </div>
-      <div class="col-md-3 col-sm-4">
-        {{ partial "menu" . }}
-      </div>
     </div>
 
-    <div class="row">
-      <div class="col-lg-9 col-md-9 col-sm-8 col-lg-offset-3 col-md-offset-3">
-      {{ partial "footer" . }}
-      </div>
-    </div>
 
 </div>
 
+{{ partial "footer" . }}
 {{ partial "footer_js" . }}
-</html>
