@@ -1,0 +1,122 @@
+---
+date: 2016-07-21T19:50:10+10:00
+meta_description: ""
+title: Songlib - Your private chord chart library and song database
+subtitle: Your Private Chord Chart Library
+introduction: No more messy piles of printed chord charts
+menu:
+  main:
+    parent: features
+    name: Chord charts
+    weight: 20
+    identifier: about-chords
+hero: img/hero/stock-photo-11060511-antique-hymnals.jpg
+heroPositionY: 40%
+---
+
+
+<div style="background: #e3ffe3; margin: -20px -20px 20px -20px; padding: 20px; ">
+    <h1>Your Private Chord Chart Library</h1>
+    <p class="lead">No more messy piles of printed chord charts</p>
+
+    <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
+        <div class="col-md-6">
+            <p><img class="img-responsive" src="/img/old-screenshots/chordchart-simple-3d.png"></p>
+        </div>
+        <div class="col-md-6">
+            <h3>Your online music stand</h3>
+            <ul>
+                <li>Stop printing music! Start using your iPad, phone, or computer.</li>
+                <li>Tested in all modern web-browsers.  No software installs necessary.</li>
+                <li>Keep all of chord charts in one place.</li>
+                <li>Put your iPad on your music stand.</li>
+                <li>Take your library anywhere you have an internet connection.</li>
+            </ul>
+            <h3>The easiest way to manage your chord charts.</h3>
+            <ul>
+                <li>Unique 2-column layout</li>
+                <li>Edit songs using our simple, plain-text format.</li>
+                <li>Transpose songs, create sets, &amp; share them with your team.</li>
+                <li>Automatically display lyrics on a project using the Presenter.</li>
+                <li><span class="label label-success">NEW</span> Import your existing song library (Chordpro format)</li>
+            </ul>
+            <p>
+                <br/>
+                <br/>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="row" style="margin-bottom: 50px;">
+    <div class="col-md-6">
+
+
+        <h2>Editing made easy</h2>
+        <h5>Simple, quick, easy to learn, &amp; automated</h5>
+
+        <p>You will love entering chord charts using plain text.<br/>Formatting is easy.  All you need to know is:</p>
+        <ol>
+            <li>Chord lines start with a full stop</li>
+            <li>Lyric lines start with a space</li>
+            <li>And Headings are wrapped in [square brackets]</li>
+        </ol>
+        <p>  You'll never use Word to edit songs again! <span>And if that&rsquo;s not easy enough already, Songlib can do it for you.</span></p>
+
+
+        <h5>Paste from web</h5>
+        <p>We all hate pointless typing, so don't do it.
+            If you have found a chord chart elsewhere on the internet,
+            just copy and paste it into Songlib using the Paste from web option.
+            Songlib will look for chords, and automatically format them for you.</p>
+    </div>
+    <div class="col-md-6">
+        <p><img class="img-responsive" src="/img/old-screenshots/songedit-chordchart-3d.png"></p>
+    </div>
+</div>
+
+<hr/>
+
+<div class="row" style="margin-bottom: 50px;">
+    <div class="col-md-6">
+        <p><img class="img-responsive" src="/img/old-screenshots/chordchart-simple-3d.png"></p>
+    </div>
+    <div class="col-md-6">
+        <h2>Dynamic 2 column layout </h2>
+        <h5>Fit songs on one page - Never scroll again</h5>
+        <p>Designed with iPads and netbooks in mind, Songlib&rsquo;s 2-column layout dynamically changes the columns &amp; the font size so that you can have the whole song on the screen at once.</p>
+        <p>When using your phone, Songlib automatically switches to a simple 1-column layout.</p>
+
+        <h5>Good looking printouts</h5>
+        <p><i>Coming soon:</i> We have tweaked everything so that your chord charts look just as good printed as they do on the screen. &nbsp;No need for PDF downloads, print from straight from your browser, and select landscape mode.</p>
+    </div>
+</div>
+
+<hr/>
+<div class="row" style="margin-bottom: 50px;">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-4">
+        <p><img class="img-responsive" src="/img/old-screenshots/phone-transpose-3d.png"></p>
+    </div>
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-6">
+
+        <h2>And wait... there's more!</h2>
+
+        <h5>Transpose into any key</h5>
+        <p>Too high or low? &nbsp;Songlib can transpose chords for you. &nbsp;If you like your new key, you can save it so that it&rsquo;s always in that key in the future.</p>
+        <p><i>Coming soon:</i> Select different keys for different sets.</p>
+
+        <h5>Looks great on your phone too</h5>
+        <p>Everything is dynamically adjusted to look great on whatever device you are using.  For example, chord charts are displayed in one column when using your phone.
+        </p>
+        <h5>Automatic slideshows.</h5>
+        <p>Stop creating separate Powerpoint presentations.  Don't risk singing different words to everybody else.
+            Songlib automatically creates slides from your chord charts by stripping out the chords.  Use Songlib's interactive presenter to control your slideshow.</p>
+
+
+    </div>
+</div>
