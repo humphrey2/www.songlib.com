@@ -2,13 +2,8 @@
 title: Songlib - Your online chord chart library
 date: '2016-04-20T10:21:00+00:00'
 type: index
-menu:
-  main:
-    name: Home
-    weight: 10
-    identifier: index
 draft: false
-
+subtitle: Organise your chord chart library
 ---
 # Songlib is awesome
 
