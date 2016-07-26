@@ -4,10 +4,15 @@ metadataformat = "yaml"
 pygmentsUseClasses = true
 theme = "songlib"
 title = "Songlib"
-# [[menu.main]]
-# name = "Home"
-# url = "/"
-# weight = 5
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[[menu.main]]
+name = "Login"
+url = "https://songlib.com/accounts/login/"
+weight = 500
 # [[menu.main]]
 # name = "Documentation"
 # url = "docs/"

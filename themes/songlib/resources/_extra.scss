@@ -9,6 +9,7 @@ h2 { font-weight: 400; }
     color: #fff;
     font-size: floor($font-size-h1 * 1.8);
     font-weight: 100;
+    margin-top: 0;
   }
   text-shadow: #000 0 0 10px;
   > div {
@@ -23,6 +24,7 @@ h2 { font-weight: 400; }
     // width: 400px;
     .logo {
       width: 250px;
+      margin-top: 10px;
     }
     .lead {
       padding: 0 0 0 20px;

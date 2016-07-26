@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"  {{ with .Site.LanguageCode }}lang="{{ . }}"{{ end }}>
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+    <title>{{ if .Params.seotitle }}{{.Params.seotitle}}{{else}}{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}{{ end }}</title>
     {{ .Hugo.Generator }}
 
     {{ with .Site.Params.description }}

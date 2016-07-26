@@ -1,9 +1,10 @@
 ---
 date: 2016-07-21T19:50:10+10:00
+title: The (Song lib)rary for your music team
+subTitle: Organise your chord chart library
+seoTitle: Songlib - The online chord chart library for your music team
 introduction: Built by & for worship leaders... Songlib helps you save your time for the important things.
 meta_description: ""
-title: Songlib - The online chord chart library for your music team
-subtitle: Organise your chord chart library
 menu:
   main:
     name: Home

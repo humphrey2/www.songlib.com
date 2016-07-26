@@ -1,71 +1,17 @@
 {{ partial "header" . }}
 {{ partial "navbar" . }}
-
-<div class="hero" style="{{ if isset .Params "hero" }}background-image: url('/{{.Params.hero}}');{{end}} background-position-y: {{ if isset .Params "heropositiony" }}{{ .Params.heropositiony }}{{else}}50%{{ end }};">
-  <div>
-    <div class="container">
-      <div class="doc-branding">
-        <img class="logo" src="/img/songlib-logo-white-large.png"/>
-
-      </div>
-      <div class="align-bottom">
-        <h1 class="title">Docs &gt; {{.Title}}</h1>
-          <!-- <p class="lead">Documentation</p> -->
-      </div>
-    </div>
-  </div>
-</div>
+{{ partial "hero" . }}
 
 <div style="height: 30px;"></div>
 
 <div class="container">
-    <div class="row">
-      <div class="col-md-9 col-sm-8">
 
         {{ if isset .Params "subtitle" }}<p class="lead">{{ .Params.subtitle }}</p>{{ end }}
 
           <p>{{ .Params.introduction }}</p>
 
-          {{ if .TableOfContents }}
-          <br/>
-          <div class="clearfix">
-            <div class="well well-sm pull-left">
-              <h5 class="text-center">Contents</h4>
-              {{ .TableOfContents }}
-            </div>
-          </div>
-          {{ end }}
           {{ .Content }}
 
-      </div>
-      <div class="col-md-3 col-sm-4">
-        <!-- <div style="height: 58px;"></div> -->
-
-        <div class="panel panel-default">
-
-          {{ $currentNode := . }}
-          {{ range .Site.Menus.main }}
-
-            <a class="panel-heading{{if $currentNode.IsMenuCurrent "main" . }} active{{end}}" href="{{.URL}}" style="display: block;">
-              {{ .Name }}
-            </a>
-            <div class="list-group small">
-              {{ range .Children }}
-                <a class="list-group-item{{if $currentNode.IsMenuCurrent "main" . }} active{{end}}" href="{{.URL}}">
-                  {{ .Name }}
-                </a>
-                {{ range .Children }}
-                  <a class="list-group-item{{if $currentNode.IsMenuCurrent "main" . }} active{{end}}" href="{{.URL}}" style="padding-left: 20px;">
-                    - {{ .Name }}
-                  </a>
-                {{ end }}
-              {{ end }}
-            </div>
-          {{end}}
-        </div>
-
-      </div>
-    </div>
 
 
 </div>

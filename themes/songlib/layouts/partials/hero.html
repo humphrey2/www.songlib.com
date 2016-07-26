@@ -1,0 +1,13 @@
+
+<div class="hero" style="{{ if isset .Params "hero" }}background-image: url('/{{.Params.hero}}');{{end}} background-position-y: {{ if isset .Params "heropositiony" }}{{ .Params.heropositiony }}{{else}}50%{{ end }};">
+  <div>
+    <div class="container">
+      <div class="doc-branding">
+        <img class="logo" src="/img/songlib-logo-white-large.png"/>
+      </div>
+      <div>
+        <h1 class="title">{{.Title}}</h1>
+      </div>
+    </div>
+  </div>
+</div>
