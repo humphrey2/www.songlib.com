@@ -1,6 +1,18 @@
 
 h2 { font-weight: 400; }
 
+.navbar-brand {
+  margin-top: -6px;
+  .logo {
+    height: 50px;
+  }
+  span {
+    line-height: 43px;
+    font-weight: 100;
+    margin-left: 10px;
+  }
+}
+
 .hero {
   color: #fff;
   background-image: url('/img/hero/stock-photo-75675711-cup-of-coffee-for-the-music-composer-vintage-effect-.jpg');
@@ -11,7 +23,9 @@ h2 { font-weight: 400; }
     font-weight: 100;
     margin-top: 0;
   }
-  text-shadow: #000 0 0 10px;
+  h1,h2,h3,h4,p {
+    text-shadow: #000 0 0 10px;
+  }
   > div {
      @include gradient-vertical(rgba(0,0,0,0.1), rgba(0,0,0,0.8));
      padding: 40px 0 10px 0;
@@ -32,9 +46,8 @@ h2 { font-weight: 400; }
       font-weight: 100;
     }
   }
-  .align-bottom {
-    display: table-cell;
-    vertical-align: bottom;
-    height: 100px;
-  }
+}
+.align-bottom {
+  display: table-cell;
+  vertical-align: bottom;
 }

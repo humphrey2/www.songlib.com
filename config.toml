@@ -5,10 +5,10 @@ pygmentsUseClasses = true
 theme = "songlib"
 title = "Songlib"
 
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
+# [[menu.main]]
+# name = "Home"
+# url = "/"
+# weight = 1
 [[menu.main]]
 name = "Login"
 url = "https://songlib.com/accounts/login/"
@@ -35,5 +35,6 @@ provider = "GitHub"
 repo_id = "myproject"
 repo_url = "https://github.com/mynamemyproject"
 version = "1.0.0"
+loginUrl = "https://songlib.com/accounts/login/"
 [social]
 github = "myname"

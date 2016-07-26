@@ -1,6 +1,17 @@
 {{ partial "header" . }}
 {{ partial "navbar" . }}
-{{ partial "hero" . }}
+
+<div class="hero" style="{{ if isset .Params "hero" }}background-image: url('/{{.Params.hero}}');{{end}} background-position-y: {{ if isset .Params "heropositiony" }}{{ .Params.heropositiony }}{{else}}50%{{ end }};">
+  <div>
+    <div class="container">
+      <div>
+        <br/>
+        <h1 class="title">{{.Title}}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <div style="height: 30px;"></div>
 

@@ -2,7 +2,9 @@
 <div class="navbar navbar-inverse navbar-top-fixed" style="position: absolute; right:0; left: 0; top: 0;">
 <div class="container">
   <div class="navbar-header">
-    <!-- <a href="{{ .Site.BaseURL }}" class="navbar-brand"><i class="fa fa-music" aria-hidden="true"></i> {{ .Site.Title }}</a> -->
+    <a href="{{ if eq .Section "docs" }}{{ .Site.BaseURL }}docs/{{ else }}{{ .Site.BaseURL }}{{ end }}" class="navbar-brand" title="{{ .Site.Title }}">
+      <img class="logo pull-left" src="/img/songlib-logo-white-large.png"/> {{ if eq .Section "docs" }}<span>Documentation</span>{{ end }}
+    </a>
     <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>

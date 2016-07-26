@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Features on Songlib</title>
+    <link>http://hugo.songlib.com/features/</link>
+    <description>Recent content in Features on Songlib</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Thu, 21 Jul 2016 19:50:10 +1000</lastBuildDate>
+    <atom:link href="http://hugo.songlib.com/features/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Auto-generated slideshows</title>
+      <link>http://hugo.songlib.com/features/slide-shows/</link>
+      <pubDate>Thu, 21 Jul 2016 19:50:10 +1000</pubDate>
+      
+      <guid>http://hugo.songlib.com/features/slide-shows/</guid>
+      <description>&lt;div style=&#34;background: #ffffe3; padding: 10px 0;&#34;&gt;
+  &lt;!-- &lt;br/&gt; --&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;h1&gt;Great looking, auto-generated slideshow presentations.&lt;/h1&gt;
+    &lt;br/&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-md-6&#34;&gt;
+          &lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;http://hugo.songlib.com/img/old-screenshots/presenter-and-controller.png&#34;&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-md-6&#34;&gt;
+          &lt;h4&gt;Stop wasting time with Powerpoint&lt;/h4&gt;
+          &lt;ul&gt;
+              &lt;li&gt;Slides are automatically generated from your chord charts.&lt;/li&gt;
+              &lt;li&gt;Change to any song in your setlist or entire chord library.&lt;/li&gt;
+              &lt;li&gt;Control the presentation from your music stand.&lt;/li&gt;
+          &lt;/ul&gt;
+          &lt;h4&gt;Uses your web-browser.&lt;/h4&gt;
+          &lt;ul&gt;
+              &lt;li&gt;&lt;b&gt;Windows / Mac / Linux&lt;/b&gt; - Use full screen mode (Usually F11)&lt;/li&gt;
+              &lt;li&gt;&lt;b&gt;iPad / Android tablets&lt;/b&gt; - Swipe between slides&lt;/li&gt;
+              &lt;li&gt;&lt;b&gt;PVR&#39;s / Smart TV&#39;s / Apple TV / Play Station 3&lt;/b&gt; - Or any device with a modern web browser.
+              &lt;/li&gt;
+              &lt;li&gt;We plan to create a standalone, offline, Windows based version in the future.&lt;/li&gt;
+          &lt;/ul&gt;
+          &lt;br/&gt;
+
+          &lt;div class=&#34;well&#34;&gt;
+              &lt;p&gt;&lt;span style=&#34;font-size: 60px;&#34; class=&#34;pull-left&#34;&gt;&amp;#8220; &lt;/span&gt;
+                  Other software focuses first on the slideshow; chord charts are an afterthought.
+                  As a musician &amp;amp; worship leader, I need chord charts to be the focus.
+                  This is why I started Songlib.&lt;/p&gt;
+              &lt;span style=&#34;font-size: 60px;&#34; class=&#34;pull-right&#34;&gt;&amp;#8221; &lt;/span&gt;
+
+              &lt;p&gt;&lt;i&gt;Humphrey - The founder of Songlib.&lt;/i&gt;&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;p&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+          &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div style=&#34;background: #fff; padding: 10px 0;&#34;&gt;
+  &lt;br/&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;row&#34; style=&#34;margin-bottom: 50px;&#34;&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;h2&gt;Generated from chord charts.&lt;/h2&gt;
+
+            &lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;http://hugo.songlib.com/img/old-screenshots/chords-to-slides-horizontal.png&#34;&gt;&lt;/p&gt;
+
+            &lt;p&gt;At Songlib, we are strong supporters of the &lt;b&gt;&lt;u&gt;D&lt;/u&gt;on&#39;t &lt;u&gt;R&lt;/u&gt;epeat &lt;u&gt;Y&lt;/u&gt;ourself&lt;/b&gt; principle!
+                The words are already in your chord charts, so why should you create separate slides? Now you don&#39;t have
+                too.&lt;/p&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Never manually create a slideshow again!&lt;/li&gt;
+                &lt;li&gt;Prevent that awkward situation where you are singing different words to everybody else.&lt;/li&gt;
+                &lt;li&gt;Customise slides using special formatting symbols in the chord chart.&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;p&gt;The presenter strips out chords, and automatically breaks your song into slides. Don&#39;t like how
+                your song is displayed? Well there are a few special symbols that you can add to your chord charts to
+                make your slides look just right.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;h2&gt;Browse &amp; search songs&lt;/h2&gt;
+            &lt;h5&gt;Spontaneously use a song that isn&#39;t in your setlist&lt;/h5&gt;
+
+            &lt;p&gt;No worries, you can browse &amp;amp; search for songs from the presenter.&lt;br/&gt;New songs can be added from any
+                device, not just the presenter.&lt;/p&gt;
+
+            &lt;p&gt;Stop being limited by your pre-selected list of songs!&lt;/p&gt;
+
+            &lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;http://hugo.songlib.com/img/old-screenshots/presenter-browse.png&#34;&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;background: #ffffe3; padding: 10px 0;&#34;&gt;
+  &lt;br/&gt;
+  &lt;div class=&#34;container&#34;&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;http://hugo.songlib.com/img/old-screenshots/presenter-controller.png&#34; class=&#34;pull-right&#34;/&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;h2&gt;Control using Second Screen&lt;/h2&gt;
+
+            &lt;p&gt;Presenter works great on a single screen, but it really comes alive when you have multiple monitors.
+                The presenter controller lets you preview and change slides &amp; songs on your second screen.&lt;/p&gt;
+
+            &lt;p&gt;You can even browse your entire song library and select any song as needed.&lt;/p&gt;
+
+            &lt;p&gt;Most laptops will let you use dual displays when plugged into a projector.&lt;/p&gt;
+            &lt;br/&gt;
+
+            &lt;div class=&#34;well&#34;&gt;
+                &lt;p&gt;&lt;span style=&#34;font-size: 60px;&#34; class=&#34;pull-left&#34;&gt;&amp;#8220; &lt;/span&gt;
+                    I&#39;ve used various software for church slideshows.
+                    Songlib is as good as any of them.
+                    I would be more than happy to recommend it to any church.&lt;/p&gt;
+                &lt;span style=&#34;font-size: 60px;&#34; class=&#34;pull-right&#34;&gt;&amp;#8221; &lt;/span&gt;
+
+                &lt;p&gt;&lt;i&gt;Daniel - Projector operator.&lt;/i&gt;&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;background: #fff; padding: 10px 0;&#34;&gt;
+  &lt;br/&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;h2&gt;Control from Music Stand&lt;/h2&gt;
+
+            &lt;div class=&#34;row&#34;&gt;
+                &lt;div class=&#34;col-md-6&#34;&gt;
+                    &lt;p&gt;You don&#39;t need to be stuck behind the projector to control the setlist. Using the &#34;Take Control&#34;
+                        mode, lets you control the presenter anybody following the chords.&lt;/p&gt;
+
+                    &lt;p&gt;While in control you can also change the current slide by tapping different verses.&lt;/p&gt;
+
+                    &lt;p&gt;&lt;a href=&#34;http://hugo.songlib.com/about/worship-teams/&#34; class=&#34;btn btn-primary&#34;&gt;More info&lt;/a&gt;&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class=&#34;col-md-6&#34;&gt;
+                    &lt;img class=&#34;img-responsive&#34; src=&#34;http://hugo.songlib.com/img/old-screenshots/startsetlistmenu.png&#34; class=&#34;pull-right&#34;/&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;h2&gt;Control from Smart Phone&lt;/h2&gt;
+
+            &lt;div class=&#34;row&#34;&gt;
+                &lt;div class=&#34;col-md-8&#34;&gt;
+                    &lt;p&gt;You can control the setlist from any device with a web browser. However, Songlib has a special
+                        &#34;mobile remote&#34; mode, that is designed as a simple controller.&lt;/p&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;Use any smart phone with an internet connection to change slides.&lt;/li&gt;
+                        &lt;li class=&#34;c3 c1&#34;&gt;&lt;span&gt;No need for somebody to be stuck by themselves at the back of the room changing slides.&lt;/span&gt;
+                        &lt;/li&gt;
+                        &lt;li class=&#34;c3 c1&#34;&gt;&lt;span&gt;Uses the phone&#39;s web browser so no installation of any apps necessary.&lt;/span&gt;
+                        &lt;/li&gt;
+                        &lt;li class=&#34;c3 c1&#34;&gt;&lt;span&gt;Automatically updates to display what is shown on the presenter.&lt;/span&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+
+                &lt;/div&gt;
+                &lt;div class=&#34;col-md-4&#34;&gt;
+                    &lt;img class=&#34;img-responsive&#34; src=&#34;http://hugo.songlib.com/img/old-screenshots/remote.png&#34; class=&#34;pull-right&#34;/&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;background: #ffffe3; padding: 10px 0;&#34;&gt;
+  &lt;br/&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;row&#34; style=&#34;margin-bottom: 50px;&#34;&gt;
+
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;h2&gt;Works great with Setlists&lt;/h2&gt;
+
+            &lt;div class=&#34;row&#34;&gt;
+                &lt;div class=&#34;col-md-7&#34;&gt;
+                    &lt;p&gt;Jump quickly to any song in your setlist. There is no need to display the songs in any
+                        order.&lt;/p&gt;
+
+                    &lt;p&gt;The presenter can be used for any setlist you have created. This also allows the songs to be
+                        changed by anybody else you have shared the setlist with.&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class=&#34;col-md-5&#34;&gt;
+                    &lt;img class=&#34;img-responsive&#34; src=&#34;http://hugo.songlib.com/img/old-screenshots/presenter-menu.png&#34; class=&#34;pull-right&#34;/&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;h2&gt;No need to &#34;login&#34;&lt;/h2&gt;
+
+            &lt;div class=&#34;row&#34;&gt;
+                &lt;div class=&#34;col-md-5&#34;&gt;
+                    &lt;p&gt;Every setlist has a unique, easy to remember code. This code enables the use of Presenter without
+                        logging in (helpful when not at your own computer).&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class=&#34;col-md-7&#34;&gt;
+                    &lt;img class=&#34;img-responsive&#34; src=&#34;http://hugo.songlib.com/img/old-screenshots/presenter-code.png&#34; class=&#34;pull-right&#34;/&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style=&#34;background: #fff; padding: 10px 0;&#34;&gt;
+  &lt;br/&gt;
+  &lt;div class=&#34;container&#34;&gt;
+
+    &lt;h2&gt;Getting started guide...&lt;/h2&gt;
+    &lt;div class=&#34;row&#34; style=&#34;margin-bottom: 50px;&#34;&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;p&gt;&lt;b&gt;Change slides&lt;/b&gt; by either pressing the left &amp;amp; right arrow keys, clicking the slide title in the
+                bottom right of the screen. &lt;/p&gt;
+            &lt;p&gt;If using a touch device (such as an iPad) you can swipe between slides.&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Change songs&lt;/b&gt; by clicking the menu button and selecting the next song. &lt;/p&gt;
+            &lt;p&gt;If the song you want is not in the list click &#34;browse all songs&#34; and you can search for any song.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;p&gt;&lt;b&gt;Go full screen&lt;/b&gt; by selecting your browser&#39;s &amp;quot;Full Screen&amp;quot; option. Usually this is the &lt;u&gt;F11&lt;/u&gt;
+                key. If you are using a modern browser you will also find an option for this in the main menu.&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Show a blank screen&lt;/b&gt; by selecting &amp;quot;blank screen&amp;quot; from the options menu, or by pressing
+                the &lt;u&gt;B&lt;/u&gt; key.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Organise your Worship Team</title>
+      <link>http://hugo.songlib.com/features/music-teams/</link>
+      <pubDate>Thu, 21 Jul 2016 19:50:10 +1000</pubDate>
+      
+      <guid>http://hugo.songlib.com/features/music-teams/</guid>
+      <description>&lt;div style=&#34;background: #f5e4ff; padding: 10px 0;&#34;&gt;
+  &lt;br/&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;div style=&#34;background:#f5e4ff; &#34;&gt;
+
+        &lt;h1&gt;No more photocopying, keep everything in Songlib&lt;/h1&gt;
+        &lt;br/&gt;
+
+        &lt;div class=&#34;row&#34;&gt;
+            &lt;div class=&#34;col-md-6&#34;&gt;
+                &lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;http://hugo.songlib.com/img/old-screenshots/setlist-detail.png&#34;/&gt;&lt;/p&gt;
+
+            &lt;/div&gt;
+            &lt;div class=&#34;col-md-6&#34;&gt;
+                &lt;h3&gt;Share songs &amp;amp; setlists with your team:&lt;/h3&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Individual logins for each member of your team&lt;/li&gt;
+                    &lt;li&gt;Build a shared collection of songs.&lt;/li&gt;
+                    &lt;li&gt;Before each event, create &amp;amp; share a setlist with your team.&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;br/&gt;
+                &lt;h3&gt;Keep synchronised while performing:&lt;/h3&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Use one device to control the current song, while other devices automatically follow. &lt;/li&gt;
+                    &lt;li&gt;If you are led to do an unplanned song, everybody following gets the new song!&lt;/li&gt;
+                    &lt;li&gt;Everybody is always on the same page!&lt;/li&gt;
+                &lt;/ul&gt;
+
+                &lt;br/&gt;
+                &lt;h3&gt;Automatically change songs&lt;/h3&gt;
+                &lt;h5&gt;While performing, your chords can automatically follow the leader.&lt;/h5&gt;
+                &lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;http://hugo.songlib.com/img/old-screenshots/startsetlistmenu.png&#34;  style=&#34;padding:2px; border: 1px solid #333; box-shadow: 5px 5px 15px #777; float: right; margin: 5px 0 20px 20px;&#34;/&gt;&lt;/p&gt;
+                &lt;p&gt;Songlib lets one person be in control of the setlist.  When they change song, so does everybody who is &#34;following the leader&#34;.  If the leader transposes the song, everybody else&#39;s songs transpose also.&lt;/p&gt;
+
+                &lt;h5&gt;Also controls the presenter&lt;/h5&gt;
+                &lt;p&gt;Yes, you heard right, the presenter is also updated if the controller changes song.&lt;/p&gt;
+                &lt;p&gt;
+                    &lt;br/&gt;
+                    &lt;br/&gt;
+                &lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;br/&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Your private chord chart library</title>
+      <link>http://hugo.songlib.com/features/chord-charts/</link>
+      <pubDate>Thu, 21 Jul 2016 19:50:10 +1000</pubDate>
+      
+      <guid>http://hugo.songlib.com/features/chord-charts/</guid>
+      <description>&lt;div style=&#34;background: #e3ffe3; padding: 10px 0;&#34;&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;h1&gt;No more messy piles of printed chord charts&lt;/h1&gt;
+
+    &lt;div class=&#34;row&#34; style=&#34;margin-top: 50px; margin-bottom: 50px;&#34;&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;http://hugo.songlib.com/img/old-screenshots/chordchart-simple-3d.png&#34;&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;h3&gt;Your online music stand&lt;/h3&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Stop printing music! Start using your iPad, phone, or computer.&lt;/li&gt;
+                &lt;li&gt;Tested in all modern web-browsers.  No software installs necessary.&lt;/li&gt;
+                &lt;li&gt;Keep all of chord charts in one place.&lt;/li&gt;
+                &lt;li&gt;Put your iPad on your music stand.&lt;/li&gt;
+                &lt;li&gt;Take your library anywhere you have an internet connection.&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;h3&gt;The easiest way to manage your chord charts.&lt;/h3&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Unique 2-column layout&lt;/li&gt;
+                &lt;li&gt;Edit songs using our simple, plain-text format.&lt;/li&gt;
+                &lt;li&gt;Transpose songs, create sets, &amp;amp; share them with your team.&lt;/li&gt;
+                &lt;li&gt;Automatically display lyrics on a project using the Presenter.&lt;/li&gt;
+                &lt;li&gt;&lt;span class=&#34;label label-success&#34;&gt;NEW&lt;/span&gt; Import your existing song library (Chordpro format)&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;background: #fff; padding: 10px 0;&#34;&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;br/&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-md-6&#34;&gt;
+
+
+          &lt;h2&gt;Editing made easy&lt;/h2&gt;
+          &lt;h5&gt;Simple, quick, easy to learn, &amp;amp; automated&lt;/h5&gt;
+
+          &lt;p&gt;You will love entering chord charts using plain text.&lt;br/&gt;Formatting is easy.  All you need to know is:&lt;/p&gt;
+          &lt;ol&gt;
+              &lt;li&gt;Chord lines start with a full stop&lt;/li&gt;
+              &lt;li&gt;Lyric lines start with a space&lt;/li&gt;
+              &lt;li&gt;And Headings are wrapped in [square brackets]&lt;/li&gt;
+          &lt;/ol&gt;
+          &lt;p&gt;  You&#39;ll never use Word to edit songs again! &lt;span&gt;And if that&amp;rsquo;s not easy enough already, Songlib can do it for you.&lt;/span&gt;&lt;/p&gt;
+
+
+          &lt;h5&gt;Paste from web&lt;/h5&gt;
+          &lt;p&gt;We all hate pointless typing, so don&#39;t do it.
+              If you have found a chord chart elsewhere on the internet,
+              just copy and paste it into Songlib using the Paste from web option.
+              Songlib will look for chords, and automatically format them for you.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-md-6&#34;&gt;
+          &lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;http://hugo.songlib.com/img/old-screenshots/songedit-chordchart-3d.png&#34;&gt;&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;background: #e3ffe3; padding: 10px 0;&#34;&gt;
+  &lt;br/&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;row&#34; style=&#34;margin-bottom: 50px;&#34;&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;http://hugo.songlib.com/img/old-screenshots/chordchart-simple-3d.png&#34;&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;h2&gt;Dynamic 2 column layout &lt;/h2&gt;
+            &lt;h5&gt;Fit songs on one page - Never scroll again&lt;/h5&gt;
+            &lt;p&gt;Designed with iPads and netbooks in mind, Songlib&amp;rsquo;s 2-column layout dynamically changes the columns &amp;amp; the font size so that you can have the whole song on the screen at once.&lt;/p&gt;
+            &lt;p&gt;When using your phone, Songlib automatically switches to a simple 1-column layout.&lt;/p&gt;
+
+            &lt;h5&gt;Good looking printouts&lt;/h5&gt;
+            &lt;p&gt;&lt;i&gt;Coming soon:&lt;/i&gt; We have tweaked everything so that your chord charts look just as good printed as they do on the screen. &amp;nbsp;No need for PDF downloads, print from straight from your browser, and select landscape mode.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style=&#34;background: #fff; padding: 10px 0;&#34;&gt;
+  &lt;br/&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;row&#34; style=&#34;margin-bottom: 50px;&#34;&gt;
+        &lt;div class=&#34;col-md-1&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-4&#34;&gt;
+            &lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;http://hugo.songlib.com/img/old-screenshots/phone-transpose-3d.png&#34;&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-1&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+
+            &lt;h2&gt;And wait... there&#39;s more!&lt;/h2&gt;
+
+            &lt;h5&gt;Transpose into any key&lt;/h5&gt;
+            &lt;p&gt;Too high or low? &amp;nbsp;Songlib can transpose chords for you. &amp;nbsp;If you like your new key, you can save it so that it&amp;rsquo;s always in that key in the future.&lt;/p&gt;
+            &lt;p&gt;&lt;i&gt;Coming soon:&lt;/i&gt; Select different keys for different sets.&lt;/p&gt;
+
+            &lt;h5&gt;Looks great on your phone too&lt;/h5&gt;
+            &lt;p&gt;Everything is dynamically adjusted to look great on whatever device you are using.  For example, chord charts are displayed in one column when using your phone.
+            &lt;/p&gt;
+            &lt;h5&gt;Automatic slideshows.&lt;/h5&gt;
+            &lt;p&gt;Stop creating separate Powerpoint presentations.  Don&#39;t risk singing different words to everybody else.
+                Songlib automatically creates slides from your chord charts by stripping out the chords.  Use Songlib&#39;s interactive presenter to control your slideshow.&lt;/p&gt;
+
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
