@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"  lang="en-au">
-    <title>Songlib - Your online chord chart library - Songlib</title>
+    <title>Songlib</title>
     <meta name="generator" content="Hugo 0.16" />
 
     
@@ -26,6 +26,9 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
     
+    <link href="http://hugo.songlib.com/index.xml" rel="alternate" type="application/rss+xml" title="Songlib" />
+    <link href="http://hugo.songlib.com/index.xml" rel="feed" type="application/rss+xml" title="Songlib" />
+    
     <link rel="stylesheet" href="/css/theme.css" media="screen">
     
     
@@ -39,7 +42,9 @@
 <div class="navbar navbar-inverse navbar-top-fixed" style="position: absolute; right:0; left: 0; top: 0;">
 <div class="container">
   <div class="navbar-header">
-    
+    <a href="http://hugo.songlib.com/" class="navbar-brand" title="Songlib">
+      <img class="logo pull-left" src="/img/songlib-logo-white-large.png"/> 
+    </a>
     <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
@@ -51,24 +56,6 @@
     <ul class="nav navbar-nav navbar-right">
 
       
-      
-          
-            <li>
-              <a class="" href="/">
-                
-                <span>Home</span>
-              </a>
-          
-        </li>
-      
-          
-            <li>
-              <a class="" href="/home/">
-                
-                <span>Home</span>
-              </a>
-          
-        </li>
       
           
 
@@ -176,46 +163,59 @@
 
 
 
-<div class="hero" style=" background-position-y: 50%;">
-  <div>
+
+<div class="hero" style="background-image: url('/img/hero-homepage.jpg'); background-position: 50% 50%;">
+  <div style="min-height: 100vh;">
     <div class="container">
-      <div class="doc-branding">
-        <a href="/"><img class="logo" src="/img/songlib-logo-white-large.png"/></a>
-      </div>
-      <div>
-        <h1 class="title">Songlib - Your online chord chart library</h1>
+      <div class="align-bottom text-center" style="height:68vh; padding: 30px 0;">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3">
+              <img class="img-responsive" src="/img/songlib-logo-white-large.png"/>
+
+
+          </div>
+        </div>
+
+        
+        <p class="lead">Chord chart software for your music team.</p>
+        <a href="#more-info" class="btn btn-lg btn-default">More info <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+        &nbsp;
+        <a href="/docs/libraries/" class="btn btn-lg btn-danger">Docs <i class="fa fa-file-text" aria-hidden="true"></i></a>
+        &nbsp;
+        <a href="https://songlib.com/accounts/login/" class="btn btn-lg btn-primary">Login <i class="fa fa-sign-in" aria-hidden="true"></i></a>
+        &nbsp;
+        <a href="https://songlib.com/accounts/register/" class="btn btn-lg btn-info">Sign up <i class="fa fa-check" aria-hidden="true"></i></a>
+
       </div>
     </div>
   </div>
 </div>
 
 
-<div style="height: 30px;"></div>
-
-<div class="container">
-
-        <p class="lead">Organise your chord chart library</p>
-
-          <p></p>
-
-          
-
-<h1 id="songlib-is-awesome">Songlib is awesome</h1>
-
-<p class="lead">Your private chord chart library</p>
-
-<ul>
-<li>Simple plain-text markup for chord-charts.</li>
-<li>Create &amp; share setlists with your music team.</li>
-<li>Display slideshow presentations.</li>
-<li>Tested on iOS, Android, and all modern desktop browsers.*</li>
-
-<li><p>NEW Import your existing song library (Chordpro format)</p></li>
-
-<li><p>Runs in your web-browser. Internet connection required</p></li>
-</ul>
 
 
+<div class="container" id="more-info">
+
+  <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
+      <div class="col-md-6">
+          <p><img class="img-responsive" src="/img/old-screenshots/chordchart-simple-3d.png"/></p>
+      </div>
+      <div class="col-md-6">
+          <h4>Your private chord chart library<br/><br/></h4>
+          <ul style="font-size: 18px;">
+              <li>Simple plain-text markup for <a style="color: #333; text-decoration: underline;" href="/about/chordcharts/">chord-charts</a>.<br/><br/></li>
+              <li>Create &amp; share setlists with your <a style="color: #333; text-decoration: underline;" href="/about/worship-teams/">music team</a>.<br/><br/></li>
+              <li>Display <a style="color: #333; text-decoration: underline;" href="/about/presenter/">slideshow presentations</a>.<br/><br/></li>
+              <li>Tested on iOS, Android, and all modern desktop browsers.*<br/><br/></li>
+              <li><span class="label label-success">NEW</span> Import your existing song library (Chordpro format)<br/><br/></li>
+          </ul>
+          <p>
+              <br/>
+
+          </p>
+          <p style="font-size: 12px; font-style: italic; padding-top:20px;">* Runs in your web-browser.  Internet connection required</p>
+      </div>
+  </div>
 
 
 </div>
@@ -227,6 +227,25 @@
 
 
 <script src="/js/combined.min.js"></script>
+
+<script>
+  <!-- Smooth scrolling -->
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 500);
+          return false;
+        }
+      }
+    });
+  });
+</script>
+
 </body>
 </html>
 
