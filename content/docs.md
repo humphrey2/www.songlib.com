@@ -9,6 +9,8 @@ menu:
     weight: 500
     identifier: docs
 draft: false
+hero: img/hero/stock-photo-65441825-opening-colorful-pages.jpg
+heroPositionY: 45%
 
 ---
 # Songlib Documentation
