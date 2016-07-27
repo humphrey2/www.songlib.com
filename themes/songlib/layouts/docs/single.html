@@ -42,22 +42,23 @@
 
           {{ $currentNode := . }}
           {{ range .Site.Menus.main }}
-
-            <a class="panel-heading{{if $currentNode.IsMenuCurrent "main" . }} active{{end}}" href="{{.URL}}" style="display: block;">
-              {{ .Name }}
-            </a>
-            <div class="list-group small">
-              {{ range .Children }}
-                <a class="list-group-item{{if $currentNode.IsMenuCurrent "main" . }} active{{end}}" href="{{.URL}}">
-                  {{ .Name }}
-                </a>
+            {{if eq .Identifier "docs"}}
+              <a class="panel-heading{{if $currentNode.IsMenuCurrent "main" . }} active{{end}}" href="{{.URL}}" style="display: block;">
+                {{ .Name }}
+              </a>
+              <div class="list-group small">
                 {{ range .Children }}
-                  <a class="list-group-item{{if $currentNode.IsMenuCurrent "main" . }} active{{end}}" href="{{.URL}}" style="padding-left: 20px;">
-                    - {{ .Name }}
+                  <a class="list-group-item{{if $currentNode.IsMenuCurrent "main" . }} active{{end}}" href="{{.URL}}">
+                    {{ .Name }}
                   </a>
+                  {{ range .Children }}
+                    <a class="list-group-item{{if $currentNode.IsMenuCurrent "main" . }} active{{end}}" href="{{.URL}}" style="padding-left: 20px;">
+                      - {{ .Name }}
+                    </a>
+                  {{ end }}
                 {{ end }}
-              {{ end }}
-            </div>
+              </div>
+            {{end}}
           {{end}}
         </div>
 

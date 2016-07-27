@@ -1,4 +1,5 @@
 ---
+type: docs
 title: Songlib Documentation
 date: '2016-07-13T20:36:00+00:00'
 subtitle: How to do everything awesome!
